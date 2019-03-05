@@ -9,3 +9,8 @@ Please cite the use of our tools in any published work.
 
 Here is a quick demo of each:
 
+![App 1: Simulated Data](sim.png)
+
+![App 2: Iris Data (Visual)](iris_viz.png)
+
+![App 2: Iris Data (Numeric)](iris_num.png)
