@@ -1,4 +1,4 @@
-# clustering_Shiny
+# Two Shiny Apps for Comparing Clustering Algorithms
 Shiny Apps for Comparing Clustering Algorithms (with [Marc Lavielle](http://www.cmap.polytechnique.fr/~lavielle/))
 
 _Note:_ This repository accompanies our _Journal of Open Research Software_ (JORS) paper, which is under review.
