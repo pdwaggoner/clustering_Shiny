@@ -213,4 +213,4 @@ server <- shinyServer(function(input, output) {
   
 })
 
-shinyApp(ui = ui, server = server)
+shinyApp(ui, server)
