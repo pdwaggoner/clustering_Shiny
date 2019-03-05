@@ -7,6 +7,10 @@ In this repo, we include code for two original Shiny apps for directly comparing
 
 Please cite the use of our tools in any published work.
 
+The first app using simulated data can be found here: <https://pdwaggoner.shinyapps.io/App1-Simulated_Data/>
+
+And the second app using the Iris data can be found here: <https://pdwaggoner.shinyapps.io/App2-Iris_Data/>
+
 Here is a quick demo of each:
 
 ![App 1: Simulated Data](sim.png)
