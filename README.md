@@ -1,6 +1,8 @@
 # Two Shiny Apps for Comparing Clustering Algorithms
 ### Exploring and Comparing Unsupervised Machine Learning Clustering Algorithms
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2595293.svg)](https://doi.org/10.5281/zenodo.2595293)
+
 These Shiny apps are a part of a broader series of projects with [Marc Lavielle](http://www.cmap.polytechnique.fr/~lavielle/).
 
 _Note:_ This repository accompanies a software paper, "Exploring and Comparing Unsupervised Machine Learning Clustering Algorithms", which is soon to be under review.
