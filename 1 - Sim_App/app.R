@@ -1,7 +1,11 @@
 library(shiny)
+if (!require(ggplot2)) install.packages("ggplot2")
 library(ggplot2)
+if (!require(htmltools)) install.packages("htmltools")
 library(htmltools)
+if (!require(ellipse)) install.packages("ellipse")
 library(ellipse)
+if (!require(shinyWidgets)) install.packages("shinyWidgets")
 library(shinyWidgets)
 
 alignCenter <- function(el) {
