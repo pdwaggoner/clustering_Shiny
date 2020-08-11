@@ -23,7 +23,7 @@ Here is a quick demo of each:
 
 ![App 2: Iris Data (Numeric)](iris_num.png)
 
-## Diagnosing the Output
+## Understanding the Output
 
 Each of the apps make calculations to cluster the space in real time, dependent on how the user changes global controls and parameters. These calculations vary by clustering technique, where the goals are slightly different across techniques. In k-means, the goal is to partition the space such that each observation is assigned to a single cluster, with all observations belonging to a cluster (i.e., "hard partitioning"). The result is a cluster assignment for each observation based on the optimal configuration, where optimality is defined by minimization of within cluster sums of squares.  Thus when inspecting the output from the apps, we can see this in the *Numeric Output* tab under the column `d.class.km`. The visual output in the Iris app shows how clustering configurations and class assignments shift when the bounds around the clusters are "tightened" or "loosened," via the `Level` parameter. In the simulated data app, similarly we can see the clustering configurations shifting, but as density curves rather than a 2D scatterplot. 
 
@@ -33,7 +33,7 @@ Importantly, in both apps, the terms "cluster" and "component" are used intechan
 
 ## Contributing
 
-These apps are meant to deepen an applied understanding of unsupervised clustering. If you think there is anything we could change to meet this goal more efficiently, feel free to contribute! Or, if you found a bug or an error that gets in the way fo this goal, please also contribute. 
+These apps are meant to deepen an applied understanding of unsupervised clustering. If you think there is anything we could change to meet this goal more efficiently, feel free to contribute! Or, if you found a bug or an error that gets in the way of this goal, please also contribute. 
 
 Regardless of the motivation, anyone is welcome to contribute to these open source tools in one of three ways:
 
