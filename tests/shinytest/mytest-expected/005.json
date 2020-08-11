@@ -1,0 +1,59 @@
+{
+  "input": {
+    "display": "Components (pdf)",
+    "histo": true,
+    "mu2": 0.8,
+    "n": "250",
+    "new": 0,
+    "p2": 0.85,
+    "select": "K-means Clustering",
+    "sigma2": 1
+  },
+  "output": {
+    "Numeric": "<table  class = 'table shiny-table table- spacing-s' style = 'width:auto;'>\n<thead> <tr> <th style='text-align: left;'>  <\/th> <th style='text-align: right;'> p1 <\/th> <th style='text-align: right;'> p2 <\/th> <th style='text-align: right;'> mu1 <\/th> <th style='text-align: right;'> mu2 <\/th> <th style='text-align: right;'> sigma1 <\/th> <th style='text-align: right;'> sigma2 <\/th> <th style='text-align: right;'> tvd <\/th> <th style='text-align: left;'> missclass <\/th>  <\/tr> <\/thead> <tbody>\n  <tr> <td> Original <\/td> <td align=\"right\"> 0.15 <\/td> <td align=\"right\"> 0.85 <\/td> <td align=\"right\"> 0.00 <\/td> <td align=\"right\"> 0.80 <\/td> <td align=\"right\"> 1.00 <\/td> <td align=\"right\"> 1.00 <\/td> <td align=\"right\"> 0.00 <\/td> <td> 0 <\/td> <\/tr>\n  <tr> <td> Gaussian Mixture Model <\/td> <td align=\"right\"> 0.11 <\/td> <td align=\"right\"> 0.89 <\/td> <td align=\"right\"> -0.65 <\/td> <td align=\"right\"> 0.77 <\/td> <td align=\"right\"> 0.59 <\/td> <td align=\"right\"> 0.89 <\/td> <td align=\"right\"> 0.08 <\/td> <td> 15.6% <\/td> <\/tr>\n  <tr> <td> K-means Clustering <\/td> <td align=\"right\"> 0.43 <\/td> <td align=\"right\"> 0.57 <\/td> <td align=\"right\"> -0.28 <\/td> <td align=\"right\"> 1.28 <\/td> <td align=\"right\"> 0.56 <\/td> <td align=\"right\"> 0.60 <\/td> <td align=\"right\"> 0.22 <\/td> <td> 40% <\/td> <\/tr>\n   <\/tbody> <\/table>",
+    "Visual": {
+      "src": "[image data sha1: a30c117b704f8b491c4152d339ca7c1ac3b16211]",
+      "width": 549,
+      "height": 400,
+      "coordmap": {
+        "panels": [
+          {
+            "panel": 1,
+            "row": 1,
+            "col": 1,
+            "panel_vars": {
+
+            },
+            "log": {
+              "x": null,
+              "y": null
+            },
+            "domain": {
+              "left": -3.54086850474751,
+              "right": 4.9960199450547,
+              "bottom": -0.0218533955430005,
+              "top": 0.45892130640301
+            },
+            "mapping": {
+              "x": "y",
+              "y": "..density.."
+            },
+            "range": {
+              "left": 35.5728536631963,
+              "right": 543.520547945206,
+              "bottom": 368.509178173071,
+              "top": 5.47945205479452
+            }
+          }
+        ],
+        "dims": {
+          "width": 549,
+          "height": 400
+        }
+      }
+    }
+  },
+  "export": {
+
+  }
+}
