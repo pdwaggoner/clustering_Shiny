@@ -1,5 +1,5 @@
 # Two Shiny Apps for Comparing Clustering Algorithms
-### Exploring and Comparing Unsupervised Machine Learning Clustering Algorithms
+### Exploring and Comparing Unsupervised Clustering Algorithms
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2595293.svg)](https://doi.org/10.5281/zenodo.2595293)
 
@@ -22,3 +22,11 @@ Here is a quick demo of each:
 ![App 2: Iris Data (Visual)](iris_viz.png)
 
 ![App 2: Iris Data (Numeric)](iris_num.png)
+
+## Diagnosing the Output
+
+Each of the apps make calculations to cluster the space in real time, dependent on how the user changes global controls and parameters. These calculations vary by clustering technique, where the goals are slightly different across techniques. In k-means, the goal is to partition the space such that each observation is assigned to a single cluster, with all observations belonging to a cluster (i.e., "hard partitioning"). The result is a cluster assignment for each observation based on the optimal configuration, where optimality is defined by minimization of within cluster sums of squares.  Thus when inspecting the output from the apps, we can see this in the *Numeric Output* tab under the column `d.class.km`. The visual output in the Iris app shows how clustering configurations and class assignments shift when the bounds around the clusters are "tightened" or "loosened," via the `Level` parameter. In the simulated data app, similarly we can see the clustering configurations shifting, but as density curves rather than a 2D scatterplot. 
+
+For the Gaussian mixture model output, when using these types of finite mixture models for clustering applications, we get similar output. Yet, in the mixture model case, the goal is different where the optimal cluster configuration is defined by maximizing similarities across cluster assignment probabilities (i.e., "soft partitioning"). *Soft* here assumes that a single observation could belong to multiple clusters, only to varying degrees of probability. In the simulated data app, the visual output is showing how cluster densities change as the mixing weight shifts. When this changes, the intersection between the mixed clusters also changes, which in turn shifts the mixture of densities (i.e., the individual component/cluster means and standard deviations). Thus, `p1` and `p2` correspond with each input feature, `mu1` and `mu2` correspond to the mean (location) of each computed component, and `sigma1` and `sigma2` correspond to the variance (spread/shape) of each component. 
+
+Importantly, in both apps, the terms "cluster" and "component" are used intechangably to make appropriate reference to their origins. "Component" is used in the mixture model world to reference a cluster, whereas "cluster" is used in the k-means world to reference the assignments of observations to similar groups. 
