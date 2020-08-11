@@ -37,7 +37,7 @@ These apps are meant to deepen an applied understanding of unsupervised clusteri
 
 Regardless of the motivation, anyone is welcome to contribute to these open source tools in one of three ways:
 
-1. Open an issue with the appropriate label (e.g., `bug fix`)
-2. Open a pull request with direct changes.
-3. Reach out to either Philip or Marc directly with suggestions. 
+1. [Open an issue](https://github.com/pdwaggoner/clustering_Shiny/issues) with the appropriate label (e.g., `bug` for a bug fix)
+2. [Open a pull request](https://github.com/pdwaggoner/clustering_Shiny/pulls) to make changes directly
+3. Reach out to either [Philip](https://pdwaggoner.github.io/) or [Marc](http://www.cmap.polytechnique.fr/~lavielle/) directly with suggestions, fixes, or questions
 
